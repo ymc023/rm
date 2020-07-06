@@ -1,5 +1,9 @@
 rmtorecycle
 ====
+## Install
+```
+wget https://github.com/Fangyh09/rm/blob/master/rmtorecycle.sh
+```
 
 #### Author:ymc023  Email:ymc023@163.com
 ____
