@@ -43,11 +43,11 @@ rmtorecycle()
     if [  "$1" = "-rf" ]; then
         name=$2
     fi
-        if [ "$name" = ""  ];then
-                echo "Usage:rm <filename>"
-                    else
-                            mv -f $name $TRASH --backup=numbered -fi
-                                fi
+    if [ "$name" = ""  ];then
+        echo "Usage:rm <filename>"
+    else
+        mv -f $name $TRASH --backup=numbered -fi
+    fi
                                 
 }
 
