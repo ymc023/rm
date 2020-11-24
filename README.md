@@ -10,7 +10,7 @@ ____
 
 #### 所以，就有了用mv替换rm的脚本，使用方法如下: <br>
 　
-##### 运行脚本将下面的内容追加到~/.bashrc <br>
+##### 获取脚本rmtorecycle.sh到本机，chmod +x rmtorecycle.sh && bash rmtorecycle.sh,运行脚本会追加到内容到~/.bashrc <br>
 ##### 运行完脚本请source ~/.bashrc <br>
 ##### 脚本会在当前用户家目录下创建.recycle <br>
 ##### 重名文件会提示覆盖，但会备份在.recycle下，备份格式:*.~*~ <br>
