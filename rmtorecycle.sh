@@ -39,14 +39,14 @@ TRASH=~/.recycle/
 #移动文件至.recycle
 rmtorecycle()
 {
-    name=$1
-    if [  "$1" = "-rf" ]; then
-        name=$2
+    name="\$1"
+    if [  "\$1" = "-rf" ]; then
+        name="\$2"
     fi
-    if [ "$name" = ""  ];then
+    if [ "\$name" = ""  ];then
         echo "Usage:rm <filename>"
     else
-        mv -f $name $TRASH --backup=numbered -fi
+        mv -f \$name \$TRASH --backup=numbered -fi
     fi
                                 
 }
